@@ -1,19 +1,214 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>SHIVANG_GUPTA</title>
-<style>
-  body { margin:0; height:100vh; display:grid; place-items:center;
-         background:#17120c; color:#f2e9db; font-family:system-ui, sans-serif; }
-  h1 { font-size:clamp(2rem,12vw,6rem); margin:0; }
-  p  { color:#f0a93b; letter-spacing:.3em; text-transform:uppercase; font-size:.75rem; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DevOps and DevSecOps focused profile for Shivang Gupta.">
+  <title>Shivang Gupta | DevOps &amp; DevSecOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <h1>SHIVANG_GUPTA</h1>
-    <p>DATAEKO &middot; Week 3</p>
+  <div class="cursor" aria-hidden="true"></div>
+
+  <header class="shell topbar">
+    <a class="mark" href="#top">SG / DevSecOps</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="shell hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">DevOps / DevSecOps / Automation</div>
+          <h1>Build secure,<br><span style="color:var(--acid)">reliable systems.</span></h1>
+          <div class="scroll-note"><span>↓</span> Explore profile</div>
+        </div>
+
+        <div class="hero-copy">
+          <strong>Shivang Gupta</strong> is focused on engineering systems that are fast to ship, easy to operate, and resilient under real-world security pressure.
+          <div class="stats-row">
+            <div><span>CI/CD</span><strong>Automation</strong></div>
+            <div><span>Cloud</span><strong>Infrastructure</strong></div>
+            <div><span>Security</span><strong>DevSecOps</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portrait-wrap">
+        <img src="public/originkit/hero-11/portrait.png" alt="Portrait of Shivang Gupta">
+      </div>
+    </section>
+
+    <div class="signal">
+      <div class="shell signal-inner">
+        <span>Available for DevOps &amp; DevSecOps roles</span>
+        <span>Cloud • Security • Automation</span>
+        <span>Based in India • Working globally</span>
+      </div>
+    </div>
+
+    <section class="shell reveal" id="about">
+      <div class="section-head">
+        <div class="section-kicker">01 / Profile</div>
+        <h2>Engineering for speed, visibility, and trust.</h2>
+      </div>
+
+      <div class="about-grid">
+        <p>
+          I enjoy building reliable software delivery pipelines, improving operational resilience, and embedding security into the development lifecycle.
+          My work is centered on helping teams deploy faster without compromising compliance, stability, or system integrity.
+        </p>
+        <p>
+          This profile is aligned with modern DevOps and DevSecOps practices, covering automation, infrastructure provisioning, observability, secure delivery, and continuous improvement.
+          I focus on turning fragmented workflows into streamlined systems that are easier to monitor, secure, and scale.
+        </p>
+      </div>
+    </section>
+
+    <section class="shell reveal" id="experience">
+      <div class="section-head">
+        <div class="section-kicker">02 / Experience</div>
+        <h2>Hands-on impact across delivery and security.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-year">2025 — Present</div>
+          <div class="timeline-content">
+            <h3>DevOps / DevSecOps Engineer</h3>
+            <p>Designing and improving CI/CD workflows, deployment automation, and platform reliability practices with a security-first mindset.</p>
+            <ul>
+              <li>Automated build and release pipelines to reduce deployment friction.</li>
+              <li>Improved system observability and environment consistency across delivery stages.</li>
+              <li>Embedded security checks into development and deployment workflows.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-year">2023 — 2025</div>
+          <div class="timeline-content">
+            <h3>Cloud &amp; Automation Engineer</h3>
+            <p>Worked on cloud-ready application delivery patterns, infrastructure automation, and operational tooling to support faster product cycles.</p>
+            <ul>
+              <li>Helped standardize deployment processes and runtime configuration management.</li>
+              <li>Built reusable automation for environment setup and release coordination.</li>
+              <li>Focused on reducing manual operations and increasing deployment confidence.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-year">2021 — 2023</div>
+          <div class="timeline-content">
+            <h3>Software &amp; Infrastructure Enthusiast</h3>
+            <p>Developed a strong foundation in modern software delivery, system design, and secure engineering practices while exploring automation and infrastructure workflows.</p>
+            <ul>
+              <li>Built and maintained application-focused automation and delivery workflows.</li>
+              <li>Worked with Git-based collaboration, version control, and release planning.</li>
+              <li>Strengthened understanding of secure engineering principles in team delivery.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="shell reveal" id="skills">
+      <div class="section-head">
+        <div class="section-kicker">03 / Skills</div>
+        <h2>Core capabilities across delivery, cloud, and security.</h2>
+      </div>
+
+      <div class="filter-bar" aria-label="Skill category filters">
+        <button class="filter-btn active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="cloud" type="button">Cloud</button>
+        <button class="filter-btn" data-filter="cicd" type="button">CI/CD</button>
+        <button class="filter-btn" data-filter="security" type="button">Security</button>
+        <button class="filter-btn" data-filter="automation" type="button">Automation</button>
+        <button class="filter-btn" data-filter="monitoring" type="button">Monitoring</button>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card" data-category="cloud"><span>Cloud Platforms</span><strong>AWS • Azure • GCP</strong></article>
+        <article class="skill-card" data-category="cicd"><span>CI/CD</span><strong>GitHub Actions • Jenkins • GitLab CI</strong></article>
+        <article class="skill-card" data-category="security"><span>DevSecOps</span><strong>Security-as-Code • SAST • DAST • IaC checks</strong></article>
+        <article class="skill-card" data-category="automation"><span>Infrastructure</span><strong>Terraform • Ansible • Bash • YAML</strong></article>
+        <article class="skill-card" data-category="monitoring"><span>Monitoring</span><strong>Prometheus • Grafana • Logs • Alerts</strong></article>
+        <article class="skill-card" data-category="cloud"><span>Containers</span><strong>Docker • Kubernetes • Orchestration</strong></article>
+        <article class="skill-card" data-category="cicd"><span>Version Control</span><strong>Git • Branching • PR workflows</strong></article>
+        <article class="skill-card" data-category="security"><span>Secure Delivery</span><strong>Secrets management • Policy checks • Access control</strong></article>
+        <article class="skill-card" data-category="automation"><span>Scripting</span><strong>Python • Shell • Automation tooling</strong></article>
+      </div>
+    </section>
+
+    <section class="shell reveal" id="interests">
+      <div class="section-head">
+        <div class="section-kicker">04 / Interests</div>
+        <h2>What keeps me curious in platform engineering.</h2>
+      </div>
+
+      <div class="interest-grid">
+        <div class="interest-card">
+          <span>01</span>
+          <h3>Zero Trust Security</h3>
+          <p>Designing systems where identity, access, and workloads are continuously validated.</p>
+        </div>
+        <div class="interest-card">
+          <span>02</span>
+          <h3>Kubernetes &amp; Platforms</h3>
+          <p>Improving platform ergonomics, deployment patterns, and runtime resilience for modern workloads.</p>
+        </div>
+        <div class="interest-card">
+          <span>03</span>
+          <h3>Observability</h3>
+          <p>Building better signal-to-noise pipelines to debug production issues faster and more confidently.</p>
+        </div>
+        <div class="interest-card">
+          <span>04</span>
+          <h3>Automation &amp; Scale</h3>
+          <p>Reducing repeat work through reusable pipelines, infrastructure patterns, and developer enablement.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell contact reveal" id="contact">
+      <div>
+        <div class="section-kicker">05 / Connect</div>
+        <h2>Let’s build secure, modern systems together.</h2>
+      </div>
+
+      <div class="contact-row">
+        <a class="contact-link" href="mailto:shivanggupta998@gmail.com">shivanggupta998@gmail.com ↗</a>
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/in/shivang-gupta-13feb1996" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/shivang-13-02-1996sg/" target="_blank" rel="noreferrer">Profile</a>
+          <a href="https://github.com/ShivangGupta998" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="shell">
+    <span>Shivang Gupta</span>
+    <span>DevOps • DevSecOps • Automation</span>
+    <div style="display:flex; gap:30px; align-items:center;">
+      <ul class="social-links">
+        <li><a href="https://www.linkedin.com/in/shivang-gupta-13feb1996" target="_blank" rel="noreferrer" title="LinkedIn">LinkedIn</a></li>
+        <li><a href="https://github.com/ShivangGupta998" target="_blank" rel="noreferrer" title="GitHub">GitHub</a></li>
+      </ul>
+      <span><a href="#top">Back to top ↑</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
